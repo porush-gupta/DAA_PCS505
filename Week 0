@@ -1,0 +1,13 @@
+def search(arr,x):
+    for i in range(len(arr)):
+        if arr[i]==x:
+            print(x,"found in index",i+1)
+            break
+        
+arr=[]
+for i in range(5):
+    i=int(input("enter the elements "+str()+" "))
+    arr.append(i)
+print(arr)
+x=int(input("enter number to search "))
+search(arr,x)
